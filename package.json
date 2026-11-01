@@ -1,0 +1,16 @@
+{
+  "name": "authorized-partner-signup-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An end-to-end Cypress test of the Authorized Partner agency registration.",
+  "scripts": {
+    "test": "cypress run --browser electron",
+    "test:open": "cypress open"
+  },
+  "engines": {
+    "node": ">=22.15.0 <23"
+  },
+  "devDependencies": {
+    "cypress": "15.21.1"
+  }
+}
